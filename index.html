@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/styles.css" />
+
+    <title>Simulador de cores - Desafio 1 2 tentativa</title>
+  </head>
+  <body>
+    <h1>Simulador de Cores</h1>
+    <div class="principal">
+      <form>
+        <div class="slidecontainer">
+          <label>(R) Vermelho</label>
+          <input
+            type="range"
+            min="0"
+            max="255"
+            class="slider"
+            id="redSlider"
+            value="0"
+          />
+          <input class="result" type="text" disabled id="valueRed" value="0" />
+        </div>
+        <div class="slidecontainer">
+          <label>(G) Verde</label>
+          <input
+            type="range"
+            min="0"
+            max="255"
+            class="slider"
+            id="greenSlider"
+            value="0"
+          />
+          <input
+            class="result"
+            type="text"
+            disabled
+            id="valueGreen"
+            value="0"
+          />
+        </div>
+        <div class="slidecontainer">
+          <label>(B) Azul</label>
+          <input
+            type="range"
+            min="0"
+            max="255"
+            class="slider"
+            id="blueSlider"
+            value="0"
+          />
+          <input class="result" type="text" disabled id="valueBlue" value="0" />
+        </div>
+      </form>
+    </div>
+    <div class="caixa">
+      <div class="mostrador" id="colorChange"></div>
+    </div>
+    <script src="./js/script.js"></script>
+  </body>
+</html>

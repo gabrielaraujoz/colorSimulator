@@ -1,0 +1,75 @@
+.slidecontainer {
+  width: 100%;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.slider {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 40%;
+  height: 25px;
+  background: #d3d3d3;
+  outline: none;
+  opacity: 0.7;
+  -webkit-transition: 0.2s;
+  transition: opacity 0.2s;
+}
+
+.slider:hover {
+  opacity: 1;
+}
+
+.slider::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 15px;
+  height: 25px;
+  background: #4caf50;
+  cursor: pointer;
+}
+
+label {
+  display: inline-block;
+  width: 100px;
+  margin-top: 10px;
+  align-self: auto;
+  text-align: left;
+}
+
+h1 {
+  text-align: center;
+}
+
+.principal {
+  margin: auto;
+  width: 100%;
+}
+
+.result {
+  width: 40px;
+}
+
+.mostrador {
+  width: 100px;
+  height: 100px;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.caixa {
+  width: 100%;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 40px;
+}
+
+#colorChange {
+  background: black;
+}
